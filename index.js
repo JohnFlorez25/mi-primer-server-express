@@ -2,13 +2,13 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("Hola Mundo PCJIC");
+  res.send("Hola Mundo NodeJS");
 });
 
 app.get("/json", function (req, res) {
-  res.json({ hola: "Media Técnica Poli - 2020" });
+  res.json({ hola: "Bootcamp Time - 2022" });
 });
 
-app.listen(5057, function () {
+app.listen(9000, function () {
   console.log("El servidor se encuentra activo");
 });
